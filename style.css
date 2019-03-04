@@ -1,0 +1,65 @@
+body {
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.photo {
+    color: olive;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.nama {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.biodata {
+    color: midnightblue;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+/* unvisited link*/
+a:link {
+    color: rgb(30, 78, 210);
+    background-color: darkgrey;
+    text-decoration: antiquewhite;
+}
+
+/*visited link*/
+a:visited {
+    color: white;
+    background-color:cadetblue;
+    text-decoration:rgb(183, 215, 216);
+}
+
+/*mouse over link*/
+a:hover {
+    color: pink;
+    background-color: brown;
+}
+
+/*selected link*/
+a:active {
+    color: rgb(170, 170, 206);
+    background-color: darkblue;
+}
+
+.tabel {
+    color: black;
+    background-color: rgb(226, 183, 152);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
